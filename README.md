@@ -1,8 +1,10 @@
-<h2 align="center">Welcome ! I'm Dani, An Offensive Security Practitioner and Threat Intelligence Expert</h2>
+<h2 align="center">Hi ! I'm Dani</h2>
 
 <div align="center">
   <img height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmszN253dTlzdnBscmsycjVxbjFoaWxvMTQ1cGdtNTEwcTFmODQ2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6OrCT1jVbonHG/giphy.gif" />
 </div>
+
+<h2 align="center">An Offensive Security Practitioner and Threat Intelligence Expert</h2>
 
 <br />
 
