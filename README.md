@@ -1,54 +1,30 @@
-<h2 align="center">Hi ! I'm Dani</h2>
+<h1 align="center">Hi, I'm Dani 👋</h1>
+<h3 align="center">Offensive Security | Threat Intelligence | Developer</h3>
 
-<div align="center">
-  <img height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmszN253dTlzdnBscmsycjVxbjFoaWxvMTQ1cGdtNTEwcTFmODQ2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6OrCT1jVbonHG/giphy.gif" />
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FF9C&background=0D1117&center=true&vCenter=true&width=800&height=50&lines=%24+Somewhere+between+an+exploit+chain+and+a+2AM+deploy.;%24+Trying+to+get+a+little+better+at+this+every+day.;%24+Just+curious+and+persistent." alt="typing animation" />
+</p>
 
-<h2 align="center">An Offensive Security Practitioner and Threat Intelligence Expert</h2>
+<p align="center">
+  <img height="180" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmszN253dTlzdnBscmsycjVxbjFoaWxvMTQ1cGdtNTEwcTFmODQ2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6OrCT1jVbonHG/giphy.gif" alt="hacker gif" />
+</p>
 
-<br />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=obsidian,bash,powershell,regex,py,js,java,php,go,sql" height="45" />
+</p>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bash" height="40" alt="bash logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="40" alt="go logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=laravel" height="40" alt="laravel logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vue" height="40" alt="vuejs logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
-</div>
 
-<br />
+<!-- Swap the tool names above for whatever's actually in your kit -->
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph.svg?game=galaga">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph.svg?game=galaga">
-</picture>
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph.svg?game=galaga">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/0xscarr/0xscarr/pacman-output/galaga-contribution-graph.svg?game=galaga">
+  </picture>
+</p>
 
 <div>
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" />
