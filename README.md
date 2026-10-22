@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=obsidian,bash,powershell,regex,py,js,java,php,go,sql" height="45" />
+  <img src="https://skillicons.dev/icons?i=obsidian,bash,powershell,regex,py,js,java,rust,php,go,sql" height="45" />
 </p>
 
 
