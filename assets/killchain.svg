@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="Kill chain: seven attacker stages, each paired with a defender control.">
+<defs><style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.n{font-size:14px;fill:#9fb3cc;font-weight:700}
+.a{font-size:14px;fill:#ff2e88;font-weight:700}
+.d{font-size:12px;fill:#39ff88}
+.t{font-size:12px;fill:#6b7f99}
+</style>
+<clipPath id="kc"><rect width="900" height="210" rx="18"/></clipPath></defs>
+<g clip-path="url(#kc)">
+<rect width="900" height="210" fill="#05070d"/>
+<text x="30" y="34" class="t">// attacker view (pink) vs defender answer (green)</text>
+<path d="M70 92H830" stroke="#1f3350" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<g><circle cx="70" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="70" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.000;0.000;0.120;0.160;1"/></circle>
+<text x="70" y="97" text-anchor="middle" class="n">1</text></g>
+<g><circle cx="197" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="197" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.142;0.143;0.263;0.303;1"/></circle>
+<text x="197" y="97" text-anchor="middle" class="n">2</text></g>
+<g><circle cx="323" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="323" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.285;0.286;0.406;0.446;1"/></circle>
+<text x="323" y="97" text-anchor="middle" class="n">3</text></g>
+<g><circle cx="450" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="450" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.428;0.429;0.549;0.589;1"/></circle>
+<text x="450" y="97" text-anchor="middle" class="n">4</text></g>
+<g><circle cx="577" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="577" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.570;0.571;0.691;0.731;1"/></circle>
+<text x="577" y="97" text-anchor="middle" class="n">5</text></g>
+<g><circle cx="703" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="703" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.713;0.714;0.834;0.874;1"/></circle>
+<text x="703" y="97" text-anchor="middle" class="n">6</text></g>
+<g><circle cx="830" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
+<circle cx="830" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.856;0.857;0.977;0.990;1"/></circle>
+<text x="830" y="97" text-anchor="middle" class="n">7</text></g>
+<text x="70" y="140" text-anchor="middle" class="a">Recon</text>
+<text x="70" y="166" text-anchor="middle" class="d">threat intel</text>
+<text x="197" y="140" text-anchor="middle" class="a">Weaponize</text>
+<text x="197" y="166" text-anchor="middle" class="d">sandbox</text>
+<text x="323" y="140" text-anchor="middle" class="a">Deliver</text>
+<text x="323" y="166" text-anchor="middle" class="d">mail filter</text>
+<text x="450" y="140" text-anchor="middle" class="a">Exploit</text>
+<text x="450" y="166" text-anchor="middle" class="d">patching</text>
+<text x="577" y="140" text-anchor="middle" class="a">Install</text>
+<text x="577" y="166" text-anchor="middle" class="d">EDR</text>
+<text x="703" y="140" text-anchor="middle" class="a">C2</text>
+<text x="703" y="166" text-anchor="middle" class="d">net detect</text>
+<text x="830" y="140" text-anchor="middle" class="a">Actions</text>
+<text x="830" y="166" text-anchor="middle" class="d">IR playbook</text>
+
+<circle r="5" fill="#fff"><animateMotion dur="10s" repeatCount="indefinite" path="M70 92H830" keyTimes="0;1" keyPoints="0;1" calcMode="linear"/></circle>
+<text x="450" y="196" text-anchor="middle" class="t">think like the first, build like the second</text>
+</g>
+<rect x=".5" y=".5" width="899" height="209" rx="18" fill="none" stroke="#1f3350"/>
+</svg>
