@@ -1,28 +1,25 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Dani. Offensive Security, Threat Intelligence, Developer." width="100%" />
+  <img src="assets/header.svg" alt="0xscar. Offensive Security, Threat Intelligence, Developer." width="100%" />
 </p>
 
 <p align="center">
-  I break things so they can be fixed.<br/>
-  Then I build the fix in Vue.
+  <img src="assets/killchain.svg" alt="One engagement, roughly: get scope, recon, enumerate, huh weird, exploit, root, report, touch grass" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/killchain.svg" alt="Kill chain, attacker stage and defender answer" width="100%" />
-</p>
-
-```console
-$ cat /etc/dani.conf
-role      = lead cybersecurity
-side_gigs = red teaming, pentesting, CTFs, threat intel
-builds    = full-stack web, Vue first
-rules     = authorized scope only
-```
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=obsidian,bash,powershell,regex,py,js,java,rust,php,go,sql" height="45" />
+  <img src="assets/languages.svg?v=1" alt="Skills: JavaScript, TypeScript, PHP, Python, Bash, PowerShell, Regex, C, C++, Rust, Go, Java, SQL, Obsidian" width="560" />
 </p>
 
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%" />
 </p>
+
+<!-- OPTIONS: keep the ones you like, delete the rest -->
+
+<p align="center"><img src="assets/terminal.svg" alt="Terminal session" width="100%" /></p>
+
+<p align="center"><img src="assets/radar.svg" alt="Radar" width="100%" /></p>
+
+<p align="center"><img src="assets/network.svg" alt="Network traffic" width="100%" /></p>
+
+<p align="center"><img src="assets/rules.svg" alt="Rules of engagement" width="100%" /></p>
