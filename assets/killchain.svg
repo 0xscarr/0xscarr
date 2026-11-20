@@ -1,54 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="900" height="210" role="img" aria-label="Kill chain: seven attacker stages, each paired with a defender control.">
-<defs><style>
-text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
-.n{font-size:14px;fill:#9fb3cc;font-weight:700}
-.a{font-size:14px;fill:#ff2e88;font-weight:700}
-.d{font-size:12px;fill:#39ff88}
-.t{font-size:12px;fill:#6b7f99}
-</style>
-<clipPath id="kc"><rect width="900" height="210" rx="18"/></clipPath></defs>
-<g clip-path="url(#kc)">
-<rect width="900" height="210" fill="#05070d"/>
-<text x="30" y="34" class="t">// attacker view (pink) vs defender answer (green)</text>
-<path d="M70 92H830" stroke="#1f3350" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
-<g><circle cx="70" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="70" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.000;0.000;0.120;0.160;1"/></circle>
-<text x="70" y="97" text-anchor="middle" class="n">1</text></g>
-<g><circle cx="197" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="197" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.142;0.143;0.263;0.303;1"/></circle>
-<text x="197" y="97" text-anchor="middle" class="n">2</text></g>
-<g><circle cx="323" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="323" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.285;0.286;0.406;0.446;1"/></circle>
-<text x="323" y="97" text-anchor="middle" class="n">3</text></g>
-<g><circle cx="450" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="450" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.428;0.429;0.549;0.589;1"/></circle>
-<text x="450" y="97" text-anchor="middle" class="n">4</text></g>
-<g><circle cx="577" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="577" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.570;0.571;0.691;0.731;1"/></circle>
-<text x="577" y="97" text-anchor="middle" class="n">5</text></g>
-<g><circle cx="703" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="703" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.713;0.714;0.834;0.874;1"/></circle>
-<text x="703" y="97" text-anchor="middle" class="n">6</text></g>
-<g><circle cx="830" cy="92" r="20" fill="#0b1220" stroke="#1f3350" stroke-width="2"/>
-<circle cx="830" cy="92" r="20" fill="#ff2e88" opacity="0"><animate attributeName="opacity" dur="10s" repeatCount="indefinite" values="0;0;.9;.25;0;0" keyTimes="0;0.856;0.857;0.977;0.990;1"/></circle>
-<text x="830" y="97" text-anchor="middle" class="n">7</text></g>
-<text x="70" y="140" text-anchor="middle" class="a">Recon</text>
-<text x="70" y="166" text-anchor="middle" class="d">threat intel</text>
-<text x="197" y="140" text-anchor="middle" class="a">Weaponize</text>
-<text x="197" y="166" text-anchor="middle" class="d">sandbox</text>
-<text x="323" y="140" text-anchor="middle" class="a">Deliver</text>
-<text x="323" y="166" text-anchor="middle" class="d">mail filter</text>
-<text x="450" y="140" text-anchor="middle" class="a">Exploit</text>
-<text x="450" y="166" text-anchor="middle" class="d">patching</text>
-<text x="577" y="140" text-anchor="middle" class="a">Install</text>
-<text x="577" y="166" text-anchor="middle" class="d">EDR</text>
-<text x="703" y="140" text-anchor="middle" class="a">C2</text>
-<text x="703" y="166" text-anchor="middle" class="d">net detect</text>
-<text x="830" y="140" text-anchor="middle" class="a">Actions</text>
-<text x="830" y="166" text-anchor="middle" class="d">IR playbook</text>
-
-<circle r="5" fill="#fff"><animateMotion dur="10s" repeatCount="indefinite" path="M70 92H830" keyTimes="0;1" keyPoints="0;1" calcMode="linear"/></circle>
-<text x="450" y="196" text-anchor="middle" class="t">think like the first, build like the second</text>
-</g>
-<rect x=".5" y=".5" width="899" height="209" rx="18" fill="none" stroke="#1f3350"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="900" height="270" role="img" aria-label="One engagement, roughly: get scope, recon, enumerate, huh weird, exploit, root, report, touch grass.">
+<defs><style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}</style><clipPath id="kc"><rect width="900" height="270" rx="18"/></clipPath></defs>
+<g clip-path="url(#kc)"><rect width="900" height="270" fill="#05070d"/>
+<text x="30" y="34" font-size="12" fill="#6b7f99">// one engagement, roughly</text>
+<path d="M90 180H811" stroke="#1f3350" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+<g transform="translate(90 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#e9b858" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0.0000;0.1010"/></circle>
+<g><path d="M-8 -11H8V9H-8Z" fill="none" stroke="#e6e1d6" stroke-width="2.4"/><path d="M-4 3Q-2 -2 0 3T5 2" fill="none" stroke="#e9b858" stroke-width="2.2" stroke-linecap="round"/><path d="M-4 -6H4" stroke="#e6e1d6" stroke-width="2"/></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">get scope</text></g>
+<g transform="translate(193 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#7cc9dc" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.1250;0.2260"/></circle>
+<g><circle cx="-2" cy="-2" r="7.5" fill="none" stroke="#e6e1d6" stroke-width="2.6"/><path d="M3.5 3.5L10 10" stroke="#e6e1d6" stroke-width="3.4" stroke-linecap="round"/></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">recon</text></g>
+<g transform="translate(296 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#e9b858" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.2500;0.3510"/></circle>
+<g><g fill="none" stroke="#e6e1d6" stroke-width="2"><rect x="-10" y="-8" width="6" height="6"/><rect x="-3" y="-8" width="6" height="6"/><rect x="4" y="-8" width="6" height="6"/><rect x="-10" y="1" width="6" height="6"/><rect x="-3" y="1" width="6" height="6" stroke="#7cc9dc"/><rect x="4" y="1" width="6" height="6"/></g></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">enumerate</text></g>
+<g transform="translate(399 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#e879a8" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.3750;0.4760"/></circle>
+<g><text y="8" text-anchor="middle" font-size="26" font-weight="900" fill="#e6e1d6">?</text></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">huh, weird</text></g>
+<g transform="translate(502 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#e9b858" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.5000;0.6010"/></circle>
+<g><path d="M3 -12L-6 2H0L-3 12L8 -3H2Z" fill="none" stroke="#e9b858" stroke-width="2.4" stroke-linejoin="round"/></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">exploit</text></g>
+<g transform="translate(605 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#e8737d" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.6250;0.7260"/></circle>
+<g><text y="9" text-anchor="middle" font-size="28" font-weight="900" fill="#e8737d">#</text></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">root</text></g>
+<g transform="translate(708 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#7cc9dc" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.7500;0.8510"/></circle>
+<g><path d="M-8 -11H8V9H-8Z" fill="none" stroke="#e6e1d6" stroke-width="2.4"/><path d="M-4 0L-1 4L5 -5" fill="none" stroke="#7cc9dc" stroke-width="2.6"/></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">report</text></g>
+<g transform="translate(811 180)"><circle r="26" fill="#0b1220" stroke="#1f3350" stroke-width="2.5"/>
+<circle r="26" fill="none" stroke="#7bd9a0" stroke-width="3" opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0.0000;0.8750"/></circle>
+<g><path d="M-9 10Q-8 -2 -10 -8M-2 10Q-1 -6 -3 -12M5 10Q4 -2 7 -9M10 10H-11" fill="none" stroke="#7bd9a0" stroke-width="2.6" stroke-linecap="round"/></g><text y="48" text-anchor="middle" font-size="13" fill="#9fb3cc">touch grass</text></g>
+<g><animateMotion dur="21s" repeatCount="indefinite" calcMode="linear" keyPoints="0.0000;0.0000;0.1429;0.1429;0.2857;0.2857;0.4286;0.4286;0.5714;0.5714;0.7143;0.7143;0.8571;0.8571;1.0000;1.0000;1.0000" keyTimes="0.0000;0.1000;0.1250;0.2250;0.2500;0.3500;0.3750;0.4750;0.5000;0.6000;0.6250;0.7250;0.7500;0.8500;0.8750;0.9750;1.0000" path="M90 118Q141 62 193 118Q244 62 296 118Q347 62 399 118Q450 62 502 118Q553 62 605 118Q656 62 708 118Q759 62 811 118"/>
+<g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0.0000;0.1010"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-83" y="-76" width="166" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="144" lengthAdjust="spacingAndGlyphs">signed. in writing.</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.1250;0.2260"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-57" y="-76" width="113" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="91" lengthAdjust="spacingAndGlyphs">27 open tabs</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.2500;0.3510"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-68" y="-76" width="136" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="114" lengthAdjust="spacingAndGlyphs">so. many. ports</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.3750;0.4760"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-53" y="-76" width="106" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="84" lengthAdjust="spacingAndGlyphs">huh. weird.</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.5000;0.6010"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-76" y="-76" width="151" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="129" lengthAdjust="spacingAndGlyphs">fail. fail. fail.</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.6250;0.7260"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-57" y="-76" width="113" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="91" lengthAdjust="spacingAndGlyphs">wait, i won?</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0.0000;0.7500;0.8510"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-64" y="-76" width="128" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="106" lengthAdjust="spacingAndGlyphs">47 screenshots</text></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0.0000;0.8750"/><path d="M-6 -47L0 -38L6 -47Z" fill="#e3e9f2"/><rect x="-49" y="-76" width="98" height="30" rx="9" fill="#e3e9f2"/><text y="-56" text-anchor="middle" font-size="13" font-weight="800" fill="#05070d" textLength="76" lengthAdjust="spacingAndGlyphs">ok. grass.</text></g>
+<g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="1.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+<g transform="translate(-9 17)"><g><animateTransform attributeName="transform" type="rotate" values="16;-16;16" dur="0.7s" repeatCount="indefinite"/><rect x="-2.5" y="0" width="5" height="11" rx="2" fill="#6b7280"/><ellipse cx="2" cy="11" rx="5" ry="2.6" fill="#374151"/></g></g><g transform="translate(9 17)"><g><animateTransform attributeName="transform" type="rotate" values="-16;16;-16" dur="0.7s" repeatCount="indefinite"/><rect x="-2.5" y="0" width="5" height="11" rx="2" fill="#6b7280"/><ellipse cx="2" cy="11" rx="5" ry="2.6" fill="#374151"/></g></g><g><animateTransform attributeName="transform" type="rotate" dur="21s" repeatCount="indefinite" values="0 -11 -14;0 -11 -14;-42 -11 -14;-42 -11 -14;0 -11 -14;0 -11 -14" keyTimes="0.0000;0.6210;0.6370;0.8710;0.8870;1.0000"/><path d="M-11 -14V-24A11 11 0 0 1 11 -24V-14" fill="none" stroke="#cfd6e0" stroke-width="5" stroke-linecap="round"/></g>
+<rect x="-21" y="-14" width="42" height="32" rx="7" fill="#e9b858" stroke="#9a6a00" stroke-width="2.5"/><path d="M-16 -9H10" stroke="#ffe08a" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+<g transform="translate(0 -4)"><g><animateTransform attributeName="transform" type="scale" dur="21s" repeatCount="indefinite" calcMode="discrete" values="1 1;1 0.5;1 0.6;1 1.25;1 0.5;1 1.3;1 0.6;1 0.1" keyTimes="0.0000;0.1250;0.2500;0.3750;0.5000;0.6250;0.7500;0.8750"/>
+<circle cx="-8" r="6" fill="#fff"/><circle cx="8" r="6" fill="#fff"/><circle cx="-7" cy="1" r="2.8" fill="#05070d"/><circle cx="9" cy="1" r="2.8" fill="#05070d"/></g></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="1;1;1;0;0;0;1;0" keyTimes="0.0000;0.1250;0.2500;0.3750;0.5000;0.6250;0.7500;0.8750"/><path d="M-6 9H6" stroke="#05070d" stroke-width="3" stroke-linecap="round" fill="none"/></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;1;1;0;0;0" keyTimes="0.0000;0.1250;0.2500;0.3750;0.5000;0.6250;0.7500;0.8750"/><circle cy="7" r="3.6" fill="#05070d"/><path d="M-2 8L-3.4 15H3.4L2 8Z" fill="#05070d"/></g><g opacity="0"><animate attributeName="opacity" dur="21s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;0;0;1;0;1" keyTimes="0.0000;0.1250;0.2500;0.3750;0.5000;0.6250;0.7500;0.8750"/><path d="M-9 6Q0 17 9 6Z" fill="#05070d"/></g></g></g></g>
+<rect x=".5" y=".5" width="899" height="269" rx="18" fill="none" stroke="#1f3350"/></svg>
